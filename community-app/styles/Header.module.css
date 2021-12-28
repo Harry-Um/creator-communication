@@ -1,0 +1,16 @@
+.container{
+    position:fixed;
+    float: initial;
+    width: 375px;
+    height: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    background-color: #F8F8F8;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.container h2{
+    margin: auto 20px;
+}
