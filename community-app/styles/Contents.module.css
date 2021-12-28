@@ -1,5 +1,5 @@
 .container{
-    height: max-content;
+    height: 1fr;
     width: inherit;
     margin-top: 100px;
     display: flex;

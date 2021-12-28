@@ -12,18 +12,28 @@
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.25);
 }
 
-
 .container ul{
     padding: 0px;
-    display: flex;
     flex-flow: row nowrap;
     width: inherit;
-    height: 59.27px;
+    height: inherit;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container li{
     width: 125px;
-    text-align: center;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container a{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
