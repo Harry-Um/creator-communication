@@ -1,21 +1,14 @@
 import React from 'react'
 import Link from  'next/link'
-import styles from '../styles/Contents.module.css'
-import ContentBox from './components/ContentBox'
+import styles from '../styles/Main.module.css'
+import Content from './components/Content'
+import Login from './components/Login'
 
 
 function index() {
   return (
     <div className={styles.container}>
-      <ContentBox />
-      <ContentBox />
-      <ContentBox />
-      <ContentBox />
-      <ContentBox />
-      <ContentBox />
-      <ContentBox />
-      <ContentBox />
-      <ContentBox />
+      <Content />
     </div>
   )
 }

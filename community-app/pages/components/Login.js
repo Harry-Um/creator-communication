@@ -7,7 +7,7 @@ function Login() {
 
     return (
         <div className={styles.container}>
-            <a href='https://kauth.kakao.com/oauth/authorize?client_id=53eb46579b52771fa00819eece830902&REDIRECT_URI=http://127.0.0.1:8080/callback/kakao&response_type=code'>
+            <a href='https://kauth.kakao.com/oauth/authorize?client_id=c0353779ecf469855640360bf38de13c&redirect_uri=http://localhost:3000/api/oauth&response_type=code'>
             Login</a>
         </div>
     )

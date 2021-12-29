@@ -1,0 +1,9 @@
+.container{
+    height: max-content;
+    width: inherit;
+    margin-top: 100px;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #F8F8F8;
+    padding: 0 16px;
+}

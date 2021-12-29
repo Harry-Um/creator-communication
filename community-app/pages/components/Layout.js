@@ -1,6 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
-import headerStyles from '../../styles/Header.module.css'
 import LayoutBox from '../../styles/LayoutBox.module.css'
 
 
@@ -14,7 +12,6 @@ function Layout({children}) {
             <Header />
                 <div>{children}</div>
             <Footer />
-            
         </div>    
     )
 }

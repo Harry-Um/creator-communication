@@ -1,12 +1,14 @@
 
 body {
-  width: 375px;
+  width: 100vw;
+  max-width: 400px;
   height: 100vh;
   padding: 0;
   margin: 0 auto;
   display: absolute;
   perspective: none;
   background-color: #F8F8F8;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 
@@ -24,4 +26,5 @@ ul {
   list-style: none;
   margin: 0px;
   padding: 0px;
+  max-width: 400px;
 }
